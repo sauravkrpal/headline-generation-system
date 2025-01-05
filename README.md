@@ -43,4 +43,26 @@ headline-generation-system/
 ├── README.md                         # Project documentation (you are currently reading it!)
 └── LICENSE                           # Project license (MIT or other)
 
+```
+
+### 3. **Data**
+
+Explain the datasets used in the project, their formats, and how they are structured.
+
+**Example:**
+
+```markdown
+## Data
+
+The project uses the following datasets:
+
+- **`LABELLED_TRAIN.csv`**: A CSV file containing labeled training data. It has two columns: 
+  - `News Article`: The body of the news article.
+  - `Caption`: The corresponding headline for the article.
+
+- **`LABELLED_DEV.csv`**: A CSV file used for validation purposes, containing similar columns to the training data. The `Caption` column serves as the ground truth for evaluating the model's performance.
+
+- **`UNLABELLED_TEST.csv`**: A CSV file containing news articles without corresponding headlines. This dataset is used for generating predictions using the trained model.
+
+
 
