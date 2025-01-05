@@ -59,10 +59,86 @@ The project uses the following datasets:
 - **`LABELLED_TRAIN.csv`**: A CSV file containing labeled training data. It has two columns: 
   - `News Article`: The body of the news article.
   - `Caption`: The corresponding headline for the article.
+```
+## Installation
+
+This section provides the steps to install the required dependencies and set up the project environment.
+Follow these steps to set up the project on your local machine:
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/headline-generation-system.git
+cd headline-generation-system
+
 
 - **`LABELLED_DEV.csv`**: A CSV file used for validation purposes, containing similar columns to the training data. The `Caption` column serves as the ground truth for evaluating the model's performance.
 
 - **`UNLABELLED_TEST.csv`**: A CSV file containing news articles without corresponding headlines. This dataset is used for generating predictions using the trained model.
+```
+## Install Required Libraries
+
+Make sure you have the required libraries installed. You can use requirements.txt for this:
+```
+pip install -r requirements.txt
+```
+## Prepare the Data
+Ensure you have the following data files in the data/ folder:
+
+LABELLED_TRAIN.csv: Labeled training data
+LABELLED_DEV.csv: Labeled validation data
+UNLABELLED_TEST.csv: Unlabeled test data for making predictions
 
 
+### 5. **Training the Model**
+
+This section explains how to train the model using the provided training script.
+
+**Example:**
+
+
+## Training the Model
+
+To train the headline generation model, run the following command:
+```
+python src/train_model.py
+```
+### 6. **Generating Predictions**
+
+Explain how to use the trained model to generate predictions on new data (i.e., the test data).
+
+**Example:**
+
+
+Once the model is trained, you can generate predictions for the test data:
+
+```b
+python src/generate_predictions.py
+
+```
+
+### 7. **Evaluating the Model**
+
+Provide instructions on how to evaluate the model using BLEU and ROUGE-L scores.
+
+**Example:**
+
+```markdown
+## Evaluating the Model
+
+To evaluate the model's performance, use the following command:
+
+python src/evaluate.py
+```
+
+### 8. **License**
+
+Mention the license type for your project and give users permission to use, modify, and distribute your code.
+
+**Example:**
+
+```markdown
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
