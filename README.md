@@ -16,3 +16,4 @@ By leveraging Natural Language Processing (NLP) techniques, the model extracts m
 
 ## Project Structure
 
+headline-generation-system/ │ ├── data/ │ ├── LABELLED_TRAIN.csv # Labeled training data (News Article, Caption) │ ├── LABELLED_DEV.csv # Labeled development data (News Article, Caption) │ └── UNLABELLED_TEST.csv # Unlabeled test data (News Article) │ ├── src/ │ ├── train_model.py # Model training script │ ├── generate_predictions.py # Script to generate predictions on the test data │ ├── evaluate.py # Script to evaluate the model's performance │ └── preprocess.py # Text preprocessing functions │ ├── requirements.txt # Required Python libraries ├── README.md # Project documentation └── LICENSE # Project license
