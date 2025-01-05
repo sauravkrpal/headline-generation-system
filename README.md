@@ -17,11 +17,30 @@ By leveraging Natural Language Processing (NLP) techniques, the model extracts m
 ## Project Structure
 
 
-### Explanation:
+# Headline Generation System
 
-- The folder tree is enclosed in triple backticks (```), which is the standard markdown way of creating code blocks.
-- Use the vertical bar (|) and dash (-) characters to represent the hierarchical structure of directories and files.
-- For each folder or file, you can add a comment next to it, explaining its purpose.
+## Project Structure
 
-When rendered, the markdown will display the directory structure as a tree:
+```plaintext
+headline-generation-system/
+│
+├── data/                              # Folder containing the data files
+│   ├── LABELLED_TRAIN.csv              # Labeled training data (News Article, Caption)
+│   ├── LABELLED_DEV.csv               # Labeled development data (News Article, Caption)
+│   └── UNLABELLED_TEST.csv            # Unlabeled test data (News Article)
+│
+├── src/                               # Folder containing source code
+│   ├── train_model.py                 # Script to train the headline generation model
+│   ├── generate_predictions.py        # Script to generate predictions on the test data
+│   ├── evaluate.py                    # Script to evaluate the model's performance
+│   └── preprocess.py                  # Text preprocessing functions
+│
+├── requirements.txt                  # Required Python libraries
+├── README.md                         # Project documentation (you are currently reading it!)
+└── LICENSE                           # Project license (MIT or other)
+
+├── requirements.txt                  # Required Python libraries
+├── README.md                         # Project documentation (you are currently reading it!)
+└── LICENSE                           # Project license (MIT or other)
+
 
