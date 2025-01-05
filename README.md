@@ -16,19 +16,12 @@ By leveraging Natural Language Processing (NLP) techniques, the model extracts m
 
 ## Project Structure
 
-headline-generation-system/
-│
-├── data/
-│   ├── LABELLED_TRAIN.csv          # Labeled training data
-│   ├── LABELLED_DEV.csv           # Labeled development data
-│   └── UNLABELLED_TEST.csv        # Unlabeled test data for predictions
-│
-├── src/
-│   ├── train_model.py             # Script to train the headline generation model
-│   ├── generate_predictions.py    # Script to generate predictions on test data
-│   ├── evaluate.py                # Script to evaluate model using BLEU and ROUGE-L scores
-│   └── preprocess.py              # Text preprocessing functions for cleaning data
-│
-├── README.md                     # Project documentation
-├── requirements.txt              # List of required libraries and dependencies
-└── LICENSE                       # Project license (MIT or other)
+
+### Explanation:
+
+- The folder tree is enclosed in triple backticks (```), which is the standard markdown way of creating code blocks.
+- Use the vertical bar (|) and dash (-) characters to represent the hierarchical structure of directories and files.
+- For each folder or file, you can add a comment next to it, explaining its purpose.
+
+When rendered, the markdown will display the directory structure as a tree:
+
