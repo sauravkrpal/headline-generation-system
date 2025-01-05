@@ -137,8 +137,70 @@ Mention the license type for your project and give users permission to use, modi
 
 **Example:**
 
-```markdown
-## License
+```markdown``
+## 9. Train the Model
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+You can train the model using the following script:
+```markdown
+python src/train_model.py
+```
+### 9. Generate Predictions
+Once the model is trained, you can generate predictions on the test data:
+```maarkdown
+python src/generate_predictions.py
+```
+### 10. Evaluate the Model
+To evaluate the model's performance, you can run:
+```markdown
+python src/evaluate.py
+```
+
+## Contact
+For any questions or feedback, feel free to contact:
+
+Archit Nandan - Founder of Headline Helper
+Email: architnandan007@gmail.com
+
+
+
+### `requirements.txt`:
+Create this file to list all required libraries and their versions.
+
+```txt
+pandas==1.5.3
+scikit-learn==1.0.2
+nltk==3.7
+rouge-score==0.1.2
+```
+
+### Step 7: Final Check
+1. Push any new changes to GitHub after editing the README.md:
+
+```bash
+git add README.md
+git commit -m "Added project structure to README"
+git push
+```
+
+### MIT License
+
+Copyright (c) 2025 Saurav Kumar pal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
